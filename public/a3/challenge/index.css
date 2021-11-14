@@ -1,0 +1,306 @@
+.rotate-paragraph {
+    width: 250px;
+    height: 250px;
+    transform: rotate(90deg);
+}
+
+.rotate-list {
+    transform: rotate(12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.rotate-list-counter {
+    transform: rotate(-12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.rotate-list-items li {
+    width: 100px;
+    text-align: right;
+}
+.rotate-list-items li:nth-child(1) {
+    transform: rotate(-10deg);
+    background-color: yellow;
+}
+.rotate-list-items li:nth-child(2) {
+    transform: rotate(2deg);
+    background-color: blue;
+    color: white;
+}
+.rotate-list-items li:nth-child(3) {
+    transform: rotate(10deg);
+    background-color: red;
+}
+
+.rotate-image {
+    transform: rotate(-10deg);
+}
+
+.rotate-image-clockwise {
+    transform: rotate(10deg);
+}
+
+.rotate-table {
+    position: relative;
+    left: 50px;
+    transform: rotate(15deg);}
+.rotate-table tr:nth-child(1) {
+    background-color: black;
+    color: white;}
+.rotate-table tr:nth-child(n+2) {
+    background-color: yellow;}
+.rotate-table tr:nth-child(n+5) {
+    background-color: blue;
+    color: white;}
+.rotate-table tr:nth-child(n+8) {
+    background-color: red;}
+.rotate-table tr:nth-child(n+11) {
+    background-color: green;
+    color: white;
+}
+
+.gradients-linear {
+    background: linear-gradient(yellow, red);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-linear-2 {
+    background: linear-gradient(pink, hotpink);
+    width: 200px;
+    height: 200px;
+}
+
+
+.gradients-radial {
+    background: radial-gradient(yellow, green);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-radial-2 {
+    background: radial-gradient(deepskyblue, rosybrown);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-positioned {
+    background:
+            radial-gradient(at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.gradients-positioned-2 {
+    background:
+            radial-gradient(at bottom right, pink, olivedrab);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.animation-keyframes {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+@keyframes slidein {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+
+
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.animation-keyframes-2 {
+    background-color: deeppink;
+    font-size: 10px;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+        color: yellow;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.flex-container{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+.flex-space-around{
+    justify-content: space-around;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-align-start{
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex-align-center{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-align-end{
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+.flex-container-even {
+    justify-content: space-evenly;
+    display: flex;
+    margin: 0 auto;
+}
+
+.flex-container-even > .flex-box-even {
+    flex-basis: 100%;
+    margin: 0 auto;
+}
+
+.flex-cont{
+    width: 30%;
+}
+
+.flex-box {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-box-1 {
+    background-color: yellow;
+}
+.flex-box-2 {
+    background-color: blue;
+    color: white;
+}
+.flex-box-3 {
+    background-color: red;
+    color: white;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    body {
+        background-color: lightskyblue;
+        color: blue;
+        font-family: "PT Sans Caption"
+        font-size: 10px;
+    }
+    .media-query {
+        background-color: cornflowerblue;
+        color: white;
+    }
+    .media-image{
+        height:200px;
+        width: 200px;
+        border-radius: 30px;
+        border-color: purple;
+    }
+}
+@media (min-width: 700px) and (max-width: 950px) {
+    body {
+        background-color: darkseagreen;
+        color: green;
+        font-family: "American Typewriter";
+        font-size: 12px;
+
+
+    }
+    .media-query {
+        background-color: yellow;
+        color: lightseagreen;
+    }
+    .media-image{
+        height:300px;
+        width: 300px;
+        border-radius: 20px;
+        border-color: orange;
+    }
+    }
+@media (min-width: 950px) and (max-width: 1200px) {
+    body {
+        background-color: peachpuff;
+        color: orange;
+        font-family: Georgia;
+        font-size: 15px;
+
+    }
+    .media-query {
+        background-color: blue;
+        color: white;
+    }
+    .media-image{
+        height:400px;
+        width: 400px;
+        border-radius: 30px;
+        border-color: purple;
+    }
+}

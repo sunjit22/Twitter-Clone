@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wd-body{
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.wd-button-rounded-corner{
+  border-radius: 25px;
+}
+
+.wd-image-radius{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.img-thumbnail{
+  border: solid transparent 0px;
+}
+
+.wd-image{
+  height:  400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.wd-txtover {
+  position:relative
+}
+
+.wd-txtover figcaption {
+  position:absolute;
+  bottom:0;
+  left:0;
+  padding: 10px;
+  color:white;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.wd-image-post{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.wd-image-box {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.wd-subject-title{
+  font-size: 16px;
+}
+
+.wd-topic2 {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-post-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.wd-title{
+  font-size: 15px;
+}
+
+.wd-image-block{
+  padding-right: 16px;
+  display: inline-block;
+  float: left;
+}
+
+.wd-post{
+  width: 85%;
+}
+
+.wd-time {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+  display: inline;
+}
+
+.wd-count{
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-topic {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-align-cog{
+  align-content: center;
+}
+
+.wd-align-profile-name{
+  vertical-align: center;
+}
+
+
+.wd-list-options{
+  float: left;
+  vertical-align: center;
+  padding-right: 5px;
+}
+
+
+.wd-page-block{
+  color: darkgray;
+  padding-left: 16px;
+}
+
+.wd-bookmarks{
+  color: white;
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+.wd-username{
+  color: lightgray;
+  font-size: 13px;
+  margin-left: 0px;
+  padding-bottom: 12px;
+}
+
+
+.wd-grid-row {
+  clear: both;
+  display: grid;
+  grid-template-columns: auto fit-content(1000px) auto;
+  border: solid 1px rgb(47, 51, 54);
+  border-top: none;
+  padding: 12px;
+}
+
+.wd-grid-row-top-bar {
+  clear: both;
+  display: grid;
+  grid-template-columns: auto fit-content(1000px) auto;
+  border: solid 1px rgb(47, 51, 54);
+  padding: 12px;
+}
+
+
+.wd-grid-col-one {
+  width: 500px;
+  float: left;
+  height: 40px;
+}
+
+.wd-grid-col-two {
+  float: left;
+  height: 40px;
+  width: 60px;
+  display: flex;
+  justify-content: flex-end
+}
+
+.wd-profile-image-col{
+  padding-right: 12px;
+  float: left;
+}
+
+.wd-content-col{
+  float: left;
+  overflow: hidden;
+}
+
+.wd-font-author{
+  color: white;
+  font-size: 15px;
+}
+
+.wd-font-handle{
+  color: lightgray;
+  font-size: 15px;
+}
+
+
+.wd-para{
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  margin-right: 16px;
+  padding-right: 16px;
+
+}
+
+.wd-image-bk{
+  width:100%;
+  height: auto;
+  border-radius: 15px 15px 0px 0px;
+  border: 1px solid dimgray;
+  margin-bottom: 0px;
+}
+
+.wd-round-bottom-post{
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+.wd-image-heading{
+  color: white;
+  font-size: 15px;
+  margin:0;
+}
+
+.wd-image-text{
+  color: lightgray;
+  font-size: 15px;
+}
+
+.wd-image-box-bk{
+  padding-top: 12px;
+  padding-right: 12px;
+  margin:100;
+}
+
+.wd-image-text-box{
+  margin: 0;
+  padding: 12px;
+  border-radius: 0px 0px 15px 15px;
+  border-left: 1px solid dimgray;
+  border-right: 1px solid dimgray;
+  border-bottom: 1px solid dimgray;
+}
+
+
+.wd-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wd-response{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.wd-ellipsis-top{
+  padding-top: 15px;
+}
+
+
+
+.wd-ellipsis{
+  float: right;
+  padding-right: 16px;
+}
+
+.wd-edit-input{
+  border:0px;
+  resize: none;
+  color:white;
+  outline: none;
+}
+
+.wd-text-area:focus{
+  color:white;
+  border:0px;
+  outline: none;
+}
+
+
+.wd-textBoxPlaceholder {
+  font-size: 12px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-textBoxInput{
+  background: #000000;
+  color: #ffffff;
+  width: 100%;
+  border : 0px;
+  padding : 0px;
+}
+
+.wd-button-profile{
+  width: 10%;
+  position:absolute;
+  float: right;
+}
+

@@ -1,0 +1,144 @@
+.wd-body{
+    padding-top: none;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    max-width: 600px;
+}
+
+.wd-search-block{
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+    border-bottom: none;
+}
+
+.wd-input-bar{
+    border-radius: 50px;
+    background-color: darkgray;
+    color: white;
+    margin:auto;
+    height: 25px;
+    width: 420px;
+    border: 3px solid black;
+    padding: 4px 20px;
+}
+
+
+.wd-gear{
+    display: inline;
+    padding-top:13px;
+    padding-left: 52px;
+    padding-right: 12px;
+}
+
+.wd-page-block{
+    padding: 16px;
+    padding-top: none;
+}
+
+.wd-navbar {
+    overflow: hidden;
+}
+
+.wd-navbar-first-button{
+    color: rgb(29,161,242);
+    border-bottom: 2px solid rgb(29,161,242);
+}
+
+.wd-navbar a {
+    overflow: hidden;
+    float: left;
+    color: rgb(110, 118, 125);
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wd-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 5px;
+}
+
+.wd-topic2 {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 5px;
+
+}
+
+.wd-time {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    display: inline;
+}
+
+.wd-title{
+    font-size: 15px;
+}
+
+.wd-subject-title{
+    font-size: 16px;
+    max-width: 460px;
+    padding-top: 5px;
+}
+
+.wd-count{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-top: 5px;
+
+}
+
+.wd-block{
+    border: 1px solid rgb(47, 51, 54);
+    padding:12px;
+    padding-right: 0px;
+}
+
+.wd-block2{
+    border: 1px solid rgb(47, 51, 54);
+    padding:12px;
+    padding-right: 0px;
+    display: flex;
+}
+
+.wd-block-border{
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+    border-bottom: none;
+}
+
+.wd-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.wd-image-block{
+    padding-right: 16px;
+    display: inline-block;
+    float: left;
+}
+
+.wd-grid-row {
+    clear: both;
+    display: grid;
+    grid-template-columns: auto fit-content(1000px) auto;
+    border: solid 1px rgb(47, 51, 54);
+    border-top: none;
+}
+
+.wd-post{
+    width: 95%;
+}
+
+.wd-ellipsis{
+    display: inline;
+}

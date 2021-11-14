@@ -1,0 +1,83 @@
+.wd-body {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    font-family:Helvetica, sans-serif;
+    font_size: 16px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.wd-bg-color-gray {
+    background-color: dimgray;
+    color: white;
+}
+
+.wd-left-margin{
+    margin-left: 15px;
+}
+
+.wd-right-margin{
+    margin-right: 12px;
+}
+
+.wd-border-black {
+    border-color:  rgb(47, 51, 54);
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-page-width{
+    width: 100%;
+    height: 53px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 5px;
+    align-items: stretch;
+    display: flex;
+    z-index: 3;
+}
+
+.wd-search-bar{
+
+}
+
+.wd-dimension-menu {
+    width: 16.66%;
+}
+
+.wd-grid-col-search {
+    width: 95%;
+    float: left;
+}
+
+.wd-grid-col-gear {
+    float: right;
+}
+
+.wd-nav-bar-button {
+    width: 16.66%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: darkgray;
+}
+
+.wd-nav-bar-button-hover:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+.wd-gear {
+    color: deepskyblue;
+    size: 200px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-fg-color-white { color: white; }
