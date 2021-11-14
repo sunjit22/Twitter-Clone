@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./App"
+import Build from './components/a7/Build/index'
 import "./index.css"
 
 ReactDOM.render(
-    <App/>,
+    <Build/>,
     document.getElementById('root')
 );
 
