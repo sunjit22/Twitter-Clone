@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import History from "./History";
 
 const a7 = () => {
     return(
