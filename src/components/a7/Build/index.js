@@ -4,10 +4,6 @@ import HomeScreen_A7 from "./HomeScreen";
 import ProfileScreen from "./ProfileScreen";
 import EditProfileScreen from "./EditProfileScreen";
 
-import ExploreScreen from "../../a6/Build/ExploreScreen/index";
-import HomeScreen from "../../a6/Build/HomeScreen/index";
-import Practice from "../../a6/Practice/index";
-
 import who from "../../../reducers/who";
 import tweets from "../../../reducers/tweets";
 import profile from "../../../reducers/profile";
