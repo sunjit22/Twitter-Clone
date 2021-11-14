@@ -32,13 +32,6 @@ const Build = () => {
                        exact={true} component={ProfileScreen}/>
                 <Route path="/a7/twitter/profileEdit"
                        exact={true} component={EditProfileScreen}/>
-                <Route path="/a6/twitter/home"
-                       exact={true} component={HomeScreen}/>
-                <Route path="/a6/twitter/explore"
-                       exact={true} component={ExploreScreen}/>
-                <Route path="/a6/twitter/practice"
-                       exact={true} component={Practice}/>
-
             </div>
         </Provider>
     );
